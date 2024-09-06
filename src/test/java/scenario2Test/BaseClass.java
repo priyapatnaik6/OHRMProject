@@ -24,18 +24,18 @@ public class BaseClass {
 
 		// Maximize the window
 		driver.manage().window().maximize();
-
-		lp = new LoginPage(driver);
+        lp = new LoginPage(driver);
 		ap = new AdminPage(driver);
 
 	}
-
+    /*
 	@BeforeClass
 	public void pageSetup() {
 		System.out.println("Login Test");
 		lp.doLogin("Admin", "admin123");
 
 	}
+	*/
 
 	@AfterTest
 	public void tearDown() throws InterruptedException {

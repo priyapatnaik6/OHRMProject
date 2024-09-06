@@ -8,9 +8,7 @@
           <include name="VerifySearchWithUsername"/>
           <include name="VerifySerchWithUserRole"/>
           <include name="tearDown"/>
-          <include name="pageSetup"/>
           <include name="VerifySerchWithUserStatus"/>
-          <include name="getAllMenu"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- scenario2Test.AdminPageTest -->

@@ -30,7 +30,7 @@ public class CustomerData {
 
 			arr = new Object[row][cell];
 
-			for (int i = 1; i < row; i++) {
+			for (int i = 0; i < row; i++) {
 				for (int j = 0; j < cell; j++) {
 					arr[i][j] = sheet.getRow(i).getCell(j).getStringCellValue();
 
